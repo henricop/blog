@@ -1,0 +1,6 @@
+User-agent: *
+
+allow: /
+Disallow: /404
+
+sitemap: https://henricopiubello.netlify.com/sitemap.xml
