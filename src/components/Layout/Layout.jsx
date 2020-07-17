@@ -21,7 +21,7 @@ export default ({ children, title }) => (
         <aside className="aside">
           <Sidebar
             title="About me"
-            description= "I'm love man"
+            description= " Aqui tem que ir algo sobre alguma coisa "
           />
           <Sidebar
             title="About blog"
