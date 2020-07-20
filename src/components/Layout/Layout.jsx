@@ -20,12 +20,12 @@ export default ({ children, title }) => (
         {children}
         <aside className="aside">
           <Sidebar
-            title="About me"
-            description= " Aqui tem que ir algo sobre alguma coisa "
+            title="Projetos"
+            description= "NLW 01 / NLW 02"
           />
           <Sidebar
-            title="About blog"
-            description= "I will tell you everything "
+            title="Idéias dos usuários"
+            description= "Fulano : Que tal adicionar um footer no projeto?"
           />
         </aside>
       </Container>

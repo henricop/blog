@@ -5,6 +5,7 @@ import inst from '../../../static/inst.png';
 import git from '../../../static/git.png';
 import twitter from '../../../static/twitter.png';
 import linkedin from '../../../static/linkedin.png';
+import logo from '../../../static/logo_transparent.png';
 
 export default () => (
   <StaticQuery
@@ -23,19 +24,23 @@ export default () => (
         <div className="div-nav">
           <ul>
             <li>
+              <a href="https://henricop.github.io/brand/" target="_blank"><img
+                src={logo} alt="linkedin" /></a>
+            </li>
+            <li>
               <a href="https://www.instagram.com/henriconeves/" target="_blank"><img src={inst}
                 alt="instagram" /></a>
             </li>
             <li>
-              <a href="https://github.com/henricop"target="_blank" ><img src={git} alt="github" /></a>
+              <a href="https://github.com/henricop" target="_blank" ><img src={git} alt="github" /></a>
             </li>
             <li>
-              <a href="https://twitter.com/HenricoNeves" target="_blank"><img 
-               src={twitter} alt="twitter" /></a>
+              <a href="https://twitter.com/HenricoNeves" target="_blank"><img
+                src={twitter} alt="twitter" /></a>
             </li>
             <li>
-              <a  href="https://www.linkedin.com/in/henrico-piubello-9a9787170/" target="_blank"><img
-               src={linkedin} alt="linkedin" /></a>
+              <a href="https://www.linkedin.com/in/henrico-piubello-9a9787170/" target="_blank"><img
+                src={linkedin} alt="linkedin" /></a>
             </li>
           </ul>
         </div>
